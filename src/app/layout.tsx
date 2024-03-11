@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import SideMenu from "@/components/side-menu";
 import { ThemeProvider } from "@/providers/themeProvider";
 import { ModeToggle } from "@/components/mode-toggle";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Smarthub | Sprint monitoring",
@@ -18,15 +21,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="h-full">
+      <body className={`${poppins.className} h-full`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <main className="flex w-full h-screen">
+          <main className="flex w-full min-h-screen">
             <SideMenu />
             {children}
             <div className="fixed top-8 right-8">
