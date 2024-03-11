@@ -73,7 +73,17 @@ export default function SprintPage() {
             <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
               Diego
             </h3>
-            <p className="leading-7 [&:not(:first-child)]:mt-6"></p>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+              Eu fiquei responsável pelo Back-End, dividindo ele em alguns
+              serviços. Iniciei com a etapa da pesquisa, buscando conhecer como
+              poderíamos integrar os serviços da Azure com as APIs, após isso
+              preparei todo o ambiente de desenvolvimento para começar a
+              programar. Também realizei a modelagem do banco de dados, que foi
+              desenvolvido com Microsoft SQL Server. A linguagem escolhida para
+              ser utilizada nas APIs foi o Python, utilizando a biblioteca
+              FastAPI, onde já desenvolvi os serviços de gerenciamento de
+              temperaturas e de agendamentos dos contêineres.
+            </p>
           </div>
         </div>
       </div>
