@@ -8,7 +8,7 @@ export default function Home() {
         Bem vindo ao site de acompanhamento de sprints do nosso projeto de TCC
         (Smarthub), aqui você poderá acompanhar o trabalho de cada integrante do
         grupo em cada Sprint e suas contribuições. Este projeto foi desenvolvido
-        pelo <span className="text-green-600">Diego</span> e <span className="text-red-600">Ângelo</span>, em conjunto com a PS.
+        pelo <span className="text-green-600">Diego</span>, <span className="text-red-600">Ângelo</span> e <span className="text-pink-600">Giovanna</span>, em conjunto com a PS.
       </p>
     </div>
   );

@@ -88,6 +88,18 @@ export default function SprintPage() {
               temperaturas e de agendamentos dos contêineres.
             </p>
           </div>
+          <div>
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+              Giovanna
+            </h3>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+              Na primeira sprint comecei desenvolvendo as telas da aplicação no{" "}
+              <span className="text-purple-600">Figma</span>. Com tudo pronto,
+              parti para o desenvolvimento da <span className="text-purple-600">tela</span> e de um <span className="text-cyan-400">site</span> para ser
+              disponibilizado no dia da entrega final (apresentando o projeto,
+              tecnologias, time e download da documentação).
+            </p>
+          </div>
         </div>
       </div>
     </>
